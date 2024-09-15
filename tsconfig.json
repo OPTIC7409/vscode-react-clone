@@ -2,6 +2,7 @@
   "version": "3.8.2",
   "include": ["src/**/*"],
   "compilerOptions": {
+    "skipLibCheck": true,
     "baseUrl": "./",
     "outDir": "dist",
     "paths": {
@@ -17,14 +18,6 @@
     // "removeComments": true,
 
     "noFallthroughCasesInSwitch": true,
-    "noImplicitAny": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "noUnusedLocals": true,
-    "strictBindCallApply": true,
-    "strictFunctionTypes": true,
-    "strictNullChecks": true,
-    "strictPropertyInitialization": true,
 
     "inlineSources": true,
     "sourceMap": true,

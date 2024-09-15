@@ -10,8 +10,8 @@ import './base.css';
 import './App.css';
 
 // function __TEMPORARY__boot() {
-  // start service: environment -> commands
-  //    register commands by mounting services
+// start service: environment -> commands
+//    register commands by mounting services
 // }
 
 type LayoutContainer = React.FunctionComponent<{ children: React.ReactNode }>;

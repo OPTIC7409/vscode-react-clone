@@ -1,11 +1,9 @@
-'use strict';
-
-const path = require('path');
+const path = require("node:path");
 
 module.exports = {
-  resolve: {
-    alias: {
-      '@code': path.resolve(__dirname, 'src/renderer'),
-    },
-  },
+	resolve: {
+		alias: {
+			"@code": path.resolve(__dirname, "src/renderer"),
+		},
+	},
 };
